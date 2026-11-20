@@ -89,11 +89,11 @@ export default function Dashboard() {
 
           <div className="grid grid-cols-2 gap-4 border-y border-gray-100 dark:border-zinc-800 py-3 my-4">
             <div>
-              <p className="text-xs text-gray-500 dark:text-zinc-400">รายได้</p>
-              <p className="text-base font-bold text-emerald-600 dark:text-emerald-400 mt-0.5">23,635 ดอลลาร์</p>
+              <p className="text-xs text-gray-500 dark:text-zinc-400">ລາຍໄດ້</p>
+              <p className="text-base font-bold text-emerald-600 dark:text-emerald-400 mt-0.5">23,635 ໂດລາ</p>
             </div>
             <div>
-              <p className="text-xs text-gray-500 dark:text-zinc-400">ค่าใช้จ่าย</p>
+              <p className="text-xs text-gray-500 dark:text-zinc-400">ຄ່າໃຊ້ຈ່າຍ</p>
               <p className="text-base font-bold text-rose-600 dark:text-rose-400 mt-0.5">-18,230</p>
             </div>
           </div>
