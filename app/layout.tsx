@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className="m-0 bg-background text-foreground antialiased">
         <Navbar>{children}</Navbar>
       </body>

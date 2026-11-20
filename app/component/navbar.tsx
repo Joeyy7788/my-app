@@ -20,7 +20,7 @@ const sidebarLinks = [
   { label: "Contact me", href: "/blog/4" },
   { label: "Contact info", href: "/use-state/" },
   { label: "product", href: "/product/" },
-    { label: "Dashboard", href: "/dashboard/" },
+  { label: "Dashboard", href: "/dashboard/" },
 ];
 
 export default function Navbar({ children }: { children: React.ReactNode }) {
@@ -79,7 +79,6 @@ export default function Navbar({ children }: { children: React.ReactNode }) {
             })}
           </nav>
 
-          {/* ປຸ່ມສະຫຼັບ Light / Dark Mode */}
           <button
             type="button"
             onClick={toggleTheme}
