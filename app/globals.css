@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+:root {
+  /* ປ່ຽນຄ່າສີຫຼັກ (ຕົວຢ່າງ: ສີຟ້າເຂັ້ມ) */
+  --primary: oklch(0.55 0.22 260); 
+  --primary-foreground: oklch(0.985 0 0);
+
+  /* ປັບຄວາມໂຄ້ງມົນຂອງປຸ່ມ ແລະ Card (ເຊັ່ນ: 0.5rem, 0.75rem, 1rem) */
+  --radius: 0.75rem; 
+}
+
+.dark {
+  /* ປ່ຽນຄ່າສີຫຼັກຕອນຢູ່ໃນ Dark Mode */
+  --primary: oklch(0.65 0.22 260);
+  --primary-foreground: oklch(0.205 0 0);
+}
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
