@@ -69,7 +69,7 @@ export default function Navbar({ children }: { children: React.ReactNode }) {
                   href={item.href}
                   className={`transition whitespace-nowrap ${
                     active
-                      ? "bg-white text-sky-500 font-semibold px-4 py-1.5 rounded-full"
+                      ? "bg-sky-500/20 text-sky-500 font-semibold px-4 py-1.5 rounded-full"
                       : "text-white hover:text-gray-300"
                   }`}
                 >
